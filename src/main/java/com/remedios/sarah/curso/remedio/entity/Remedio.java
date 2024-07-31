@@ -1,9 +1,12 @@
 package com.remedios.sarah.curso.remedio.entity;
 
+import com.remedios.sarah.curso.remedio.dtos.DadosCadastroRemedio;
 import com.remedios.sarah.curso.remedio.enums.Laboratorio;
 import com.remedios.sarah.curso.remedio.enums.Via;
 import jakarta.persistence.*;
 import lombok.*;
+
+import java.util.Scanner;
 
 @Table(name = "Remedio")
 @Entity(name = "remedios")
@@ -28,5 +31,14 @@ public class Remedio {
     @Enumerated(EnumType.STRING)
     private Laboratorio laboratorio;
 
+
+    public Remedio(DadosCadastroRemedio dados) {
+        this.nome = dados.nome();
+        this.via = dados.via();
+        this.lote = dados.lote();
+        this.quantidade = dados.quantidade();
+        this.validade = dados.validade();
+        this.laboratorio = dados.laboratorio();
+    }
 
 }
