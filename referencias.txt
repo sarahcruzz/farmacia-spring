@@ -1,0 +1,14 @@
+https://asana.com/pt/resources/waterfall-project-management-methodology
+https://blog.somostera.com/desenvolvimento-web/modelo-cascata
+https://www.lucidchart.com/blog/pt/v-model-verificacao-e-valhttps://medium.com/@mila.delarosa/pesquisa-modelo-v-df338bb72ee4#:~:text=O%20modelo%20V%20%C3%A9%20um,a%20conclus%C3%A3o%20da%20fase%20anterior.idacao
+https://www.lean.org.br/o-que-e-lean.aspx
+https://awari.com.br/metodologia-lean-etapas-fases-essenciais-na-implementacao-da-metodologia-lean/
+https://www.rdstation.com/blog/marketing/metodologia-lean/
+https://awari.com.br/metodologia-agil-xp-um-exemplo-pratico-de-implementacao/?utm_source=blog&utm_campaign=projeto+blog&utm_medium=Metodologia%20%C3%81gil%20XP:%20Um%20Exemplo%20Pr%C3%A1tico%20de%20Implementa%C3%A7%C3%A3o#:~:text=sucesso%20do%20projeto.-,Aplica%C3%A7%C3%A3o%20da%20Metodologia%20%C3%81gil%20XP%20na%20Pr%C3%A1tica,efici%C3%AAncia%20do%20time%20de%20desenvolvimento.
+https://awari.com.br/metodologia-agil-xp-fases-e-praticas-para-um-desenvolvimento-de-sucesso/?utm_source=blog&utm_campaign=projeto+blog&utm_medium=Metodologia%20%C3%81gil%20XP:%20Fases%20e%20Pr%C3%A1ticas%20para%20um%20Desenvolvimento%20de%20Sucesso
+https://aws.amazon.com/pt/what-is/scrum/#:~:text=O%20Scrum%20%C3%A9%20um%20framework,uma%20entrega%20eficiente%20de%20projetos.
+https://scopi.com.br/blog/scrum/
+https://caroli.org/scrum-significado-aplicacao-conceitos-e-exemplos/#:~:text=O%20Scrum%20foi%20inicialmente%20formalizado,rapidamente%20ou%20s%C3%A3o%20altamente%20emergentes.
+https://www.lumis.com.br/a-lumis/blog/scrum-como-adotar.htm#:~:text=Aqui%20no%20blog%2C%20j%C3%A1%20comentamos%20que%20o%20cen%C3%A1rio%20ideal%20para,metodologia%20em%20um%20projeto%20espec%C3%ADfico.
+https://rockcontent.com/br/blog/kanban/#:~:text=Na%20atualidade%2C%20o%20quadro%20kanban,ferramenta%20de%20gest%C3%A3o%20de%20tarefas.
+https://www.nomus.com.br/blog-industrial/kanban/#:~:text=O%20sistema%20Kanban%20pode%20ser,local%20de%20armazenamento%2C%20consumo%20etc.
