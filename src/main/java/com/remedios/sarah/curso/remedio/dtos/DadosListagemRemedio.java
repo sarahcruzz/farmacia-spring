@@ -7,6 +7,7 @@ import com.remedios.sarah.curso.remedio.enums.Via;
 import java.time.LocalDate;
 
 public record DadosListagemRemedio(
+        Long id,
         String nome,
         Via via,
         String lote,
@@ -14,6 +15,6 @@ public record DadosListagemRemedio(
         LocalDate validade) {
 
     public DadosListagemRemedio(Remedio remedio) {
-        this(remedio.getNome(), remedio.getVia(), remedio.getLote(), remedio.getLaboratorio(), remedio.getValidade());
+        this(remedio.getId(),remedio.getNome(), remedio.getVia(), remedio.getLote(), remedio.getLaboratorio(), remedio.getValidade());
     }
 }

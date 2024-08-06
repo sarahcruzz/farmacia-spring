@@ -1,5 +1,6 @@
 package com.remedios.sarah.curso.controllers;
 
+import com.remedios.sarah.curso.remedio.dtos.DadosAtualizarRemedio;
 import com.remedios.sarah.curso.remedio.dtos.DadosCadastroRemedio;
 import com.remedios.sarah.curso.remedio.dtos.DadosListagemRemedio;
 import com.remedios.sarah.curso.remedio.entity.Remedio;
@@ -29,6 +30,11 @@ public class RemedioController {
         return repository.findAll().stream().map(DadosListagemRemedio::new).toList();
     }
 
+    @PutMapping
+    @Transactional
+    public void atualizar(@RequestBody @Valid DadosAtualizarRemedio dados){
+
+    }
 
 
 }
