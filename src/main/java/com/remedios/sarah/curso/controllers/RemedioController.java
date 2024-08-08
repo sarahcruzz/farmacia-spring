@@ -33,6 +33,19 @@ public class RemedioController {
     @PutMapping
     @Transactional
     public void atualizar(@RequestBody @Valid DadosAtualizarRemedio dados){
+        var remedio = repository.getReferenceById(dados.id());
+        remedio.atualizarInformacoes(dados);
+    }
+
+    @DeleteMapping("/{id}")
+    @Transactional
+    public void excluir(@PathVariable Long id){
+        repository.deleteById(id);
+    }
+
+    @DeleteMapping("/inativar/{id}")
+    @Transactional
+    public void inativar(@PathVariable Long id){
 
     }
 

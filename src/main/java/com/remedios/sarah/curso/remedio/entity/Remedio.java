@@ -1,5 +1,6 @@
 package com.remedios.sarah.curso.remedio.entity;
 
+import com.remedios.sarah.curso.remedio.dtos.DadosAtualizarRemedio;
 import com.remedios.sarah.curso.remedio.dtos.DadosCadastroRemedio;
 import com.remedios.sarah.curso.remedio.enums.Laboratorio;
 import com.remedios.sarah.curso.remedio.enums.Via;
@@ -25,12 +26,15 @@ public class Remedio {
 
     @Enumerated(EnumType.STRING)
     private Via via;
+
     private String lote;
     private int quantidade;
     private LocalDate validade;
 
     @Enumerated(EnumType.STRING)
     private Laboratorio laboratorio;
+
+    private boolean ativo;
 
 
     public Remedio(DadosCadastroRemedio dados) {
@@ -42,4 +46,18 @@ public class Remedio {
         this.laboratorio = dados.laboratorio();
     }
 
+    public void atualizarInformacoes(DadosAtualizarRemedio dados) {
+
+        if (dados.nome() != null) {
+            this.nome = dados.nome();
+        }
+
+        if (dados.via() != null){
+            this.via = dados.via();
+        }
+
+        if (dados.laboratorio() != null){
+            this.laboratorio = dados.laboratorio();
+        }
+    }
 }
