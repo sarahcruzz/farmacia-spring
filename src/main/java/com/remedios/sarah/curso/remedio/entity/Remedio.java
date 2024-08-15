@@ -60,4 +60,12 @@ public class Remedio {
             this.laboratorio = dados.laboratorio();
         }
     }
+
+    public void inativar() {
+        this.ativo = false;
+    }
+
+    public void ativar() {
+        this.ativo = true;
+    }
 }
